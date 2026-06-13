@@ -1,12 +1,9 @@
 # Procore Integration Assignment
 
-## Live API
+Hosted API:
 https://procore-integration-o4k6.onrender.com
 
-## Swagger Documentation
-https://procore-integration-o4k6.onrender.com/docs
-
-## Endpoints
+Endpoints:
 
 GET /projects
 
@@ -18,7 +15,15 @@ POST /webhooks/project-created
 
 POST /webhooks/submittal-created
 
-## Tech Stack
+Tech Stack:
+- Python
+- FastAPI
+- SQLAlchemy
+- SQLite
+- Render
+
+GitHub:
+https://github.com/tahera2705/procore-integration
 
 - FastAPI
 - SQLAlchemy
