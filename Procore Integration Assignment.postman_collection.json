@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "23ce7e1b-73ae-44c0-b04c-ed6392df2e08",
+    "name": "Procore Integration Assignment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55887562",
+    "_collection_link": "https://go.postman.co/collection/55887562-23ce7e1b-73ae-44c0-b04c-ed6392df2e08?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get Projects",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Project Submittals",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Submittal Analytics",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
