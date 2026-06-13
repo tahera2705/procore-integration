@@ -3,7 +3,28 @@ from app.database import engine, SessionLocal
 from app.models import Base, Project, Submittal
 
 Base.metadata.create_all(bind=engine)
+db = SessionLocal()
 
+if db.query(Project).count() == 0:
+    project = Project(
+        id=1,
+        name="Airport Construction"
+    )
+
+    db.add(project)
+
+    submittal = Submittal(
+        id=1,
+        title="Steel Approval",
+        status="Open",
+        project_id=1
+    )
+
+    db.add(submittal)
+
+    db.commit()
+
+db.close()
 app = FastAPI()
 
 
