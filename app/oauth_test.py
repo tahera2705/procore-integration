@@ -1,8 +1,8 @@
 import requests
 import webbrowser
 
-CLIENT_ID = "GeVyY_eRjJ1dAbSTl8D3CGRcxh9tUMwETOjRmuUJe60"
-CLIENT_SECRET = "mlwRhJSJQdxaBm7ZkQucwjWjEgJBiTzcFUVRwUKMCoo"
+CLIENT_ID = os.getenv("PROCORE_CLIENT_ID")
+CLIENT_SECRET = os.getenv("PROCORE_CLIENT_SECRET")
 
 REDIRECT_URI = "http://localhost"
 COMPANY_ID = "4285710"
