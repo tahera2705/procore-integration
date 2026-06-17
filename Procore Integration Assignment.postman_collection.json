@@ -32,6 +32,49 @@
       "response": []
     },
     {
+<<<<<<< HEAD
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+=======
+      "name": "Project Created Webhook",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": 231346546,\n  \"ulid\": \"01EDPD2J6SBY1163N77H95GW09\",\n  \"timestamp\": \"2017-10-18T21:16:47Z\",\n  \"metadata\": {\n    \"source_user_id\": 12345,\n    \"source_company_id\": 891,\n    \"source_project_id\": 1,\n    \"source_application_id\": \"242635f69bfc6fb9adax513875a0254a2a908f7bb176x1698d6x169a08f5646d\",\n    \"source_operation_id\": \"0181c891-8be7-4f99-8c4e-9f75387d6ecd\"\n  },\n  \"user_id\": 12345,\n  \"company_id\": 890,\n  \"project_id\": 1,\n  \"api_version\": \"v2\",\n  \"event_type\": \"create\",\n  \"resource_name\": \"Projects\",\n  \"resource_id\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://procore-integration-o4k6.onrender.com/webhooks/project-created",
+          "protocol": "https",
+          "host": [
+            "procore-integration-o4k6",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "webhooks",
+            "project-created"
+          ]
+        }
+>>>>>>> 21f2020 (Added Procore integration)
+      },
+      "response": []
+    },
+    {
+HEAD
       "name": "New Request",
       "request": {
         "method": "GET",
@@ -49,14 +92,9 @@
     },
     {
       "name": "New Request",
-      "request": {
-        "method": "GET",
-        "header": []
-      },
-      "response": []
-    },
-    {
-      "name": "New Request",
+
+      "name": "Submittal Created Webhook",
+21f2020 (Added Procore integration)
       "request": {
         "method": "GET",
         "header": []

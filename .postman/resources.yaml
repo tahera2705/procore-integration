@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: aeada1a7-5582-4e5c-856a-04d50110e4aa
+
+localResources:
+  collections:
+    - ..\Procore Integration Assignment.postman_collection.json
